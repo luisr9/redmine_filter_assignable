@@ -5,6 +5,6 @@ Redmine::Plugin.register :redmine_filter_assignable do
   author 'Luis Roa'
   description 'Plugin to filter assignable users based on workflow'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
+  url 'https://github.com/luisr9/redmine_filter_assignable'
   author_url 'www.google.com/+LuisRoa'
 end
