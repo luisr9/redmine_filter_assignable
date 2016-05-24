@@ -1,0 +1,6 @@
+# Spanish strings go here for Rails i18n
+es:
+  # my_label: "My label"
+  user_activate: Mostrar Usuarios
+  autor_activate: Mostrar Autor
+  groups_activate: Mostrar Grupos

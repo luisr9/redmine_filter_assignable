@@ -1,3 +1,6 @@
 # English strings go here for Rails i18n
 en:
   # my_label: "My label"
+  user_activate: Show Users
+  autor_activate: Show Author
+  groups_activate: Show Groups

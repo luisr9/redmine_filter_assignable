@@ -1,0 +1,12 @@
+<p>
+  <%=content_tag(:label, l(:user_activate))%>
+  <%=check_box_tag 'settings[filtera_users]', true, @settings['filtera_users'] == "true" %>
+</p>
+<p>
+  <%=content_tag(:label, l(:autor_activate))%>
+  <%=check_box_tag 'settings[filtera_autor]', true, @settings['filtera_autor'] == "true" %>
+</p>
+<p>
+  <%=content_tag(:label, l(:groups_activate))%>
+  <%=check_box_tag 'settings[filtera_groups]', true, @settings['filtera_groups'] == "true" %>
+</p>
