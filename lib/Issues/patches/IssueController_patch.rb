@@ -28,6 +28,7 @@ class Issue
     end
   end
 
-  alias_method_chain :assignable_users, :filter_assignable
+   alias_method :assignable_users_without_filter, :assignable_users
+   alias_method :assignable_users, :assignable_users_with_filter_assignable
 end
 
